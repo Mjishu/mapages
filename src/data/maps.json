@@ -1,0 +1,64 @@
+{
+  "maps": [
+    {
+      "title": "Imago Mundi",
+      "order": 0,
+      "image_href": "https://www.oldest.org/wp-content/uploads/2019/08/Babylonian-Map-of-the-World.jpg",
+      "info": {
+        "year": "700-500 BCE",
+        "description": "Known world to the Babylonians, Centered on Euphrates River",
+        "author": "Unknown",
+        "origin": "Babylonia",
+        "area": "known world"
+      }
+    },
+    {
+      "title": "Anaximander's Map",
+      "order": 1,
+      "image_href": "https://www.oldest.org/wp-content/uploads/2019/08/Anaximanders-Map.png",
+      "info": {
+        "year": "610-546 BCE",
+        "description": "Known world at point of time, Greek origins",
+        "author": "Pre-Socratic Philospher Anaximander",
+        "origin": "Ancient Greek",
+        "area": "known world"
+      }
+    },
+    {
+      "title": "Hecataceus' Map",
+      "order": 2,
+      "image_href": "https://www.oldest.org/wp-content/uploads/2019/08/Hecataeus-Map.png",
+      "info": {
+        "year": "550-476 BCE",
+        "description": "Expansion of Anaximanders' map, extended it with more details.",
+        "author": "Greek Historian Hecataeus",
+        "origin": "Ancient Greek",
+        "area": "known world"
+      }
+    },
+    {
+      "title": "Eratosthenes' Map",
+      "order": "3",
+      "image_href": "https://www.oldest.org/wp-content/uploads/2019/08/Eratosthenes-Map.jpg",
+      "info": {
+        "year": "194 BCE",
+        "description": "Years After Hecataceus' Map with improved detail and introducing Latitude and Longitude lines.",
+        "author": "Eratosthenes",
+        "origin": "Ancient Greek",
+        "area": "known world"
+      }
+    },
+    {
+      "title": "Posidonius' Map",
+      "order": "4",
+      "image_href": "https://www.oldest.org/wp-content/uploads/2019/08/Posidonius-Map.jpg",
+      "info": {
+        "year": "150-130 BCE",
+        "description": "Comes from ancient greek, which was reconstructed in Paris which includes the known world.",
+        "author": "Posidonius",
+        "origin": "Ancient Greek",
+        "area": "known world"
+      }
+    }
+  ]
+}
