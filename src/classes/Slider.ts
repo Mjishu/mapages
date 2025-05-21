@@ -1,8 +1,10 @@
 export class Slider {
   barValue: number;
   htmlBody: HTMLDivElement;
-  constructor(body: HTMLDivElement) {
-    this.barValue = 0;
+  mapNumber: number;
+  constructor(body: HTMLDivElement, mapNumber: number) {
+    this.mapNumber = mapNumber;
+    this.barValue = mapNumber;
     this.htmlBody = body;
   }
 

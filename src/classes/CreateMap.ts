@@ -11,8 +11,8 @@ export class CreateMap {
   currentMap: number;
   mapData: mapInfo[];
   htmlBody: HTMLDivElement;
-  constructor(body: HTMLDivElement) {
-    this.currentMap = 0;
+  constructor(body: HTMLDivElement, mapNumber: number) {
+    this.currentMap = mapNumber;
     this.mapData = mapsData.maps;
     this.htmlBody = body;
   }

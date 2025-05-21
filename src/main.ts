@@ -6,8 +6,22 @@ if (!contentElement) {
   throw new Error("Element with id 'content' not found");
 }
 
-const maps = new CreateMap(contentElement);
-const slider = new Slider(contentElement);
+class StartMain {
+  mapNumber: number;
+  contentElement: HTMLDivElement;
+  constructor(mapNumber: number) {
+    this.mapNumber = mapNumber;
+    this.contentElement = contentElement as HTMLDivElement;
+  }
 
-maps.Initialize();
-slider.Create();
+  init() {
+    const map = new CreateMap(this.contentElement, this.mapNumber);
+    map.Initialize();
+    const slider = new Slider(this.contentElement, this.mapNumber);
+    slider.Create();
+  }
+}
+
+const start = new StartMain(0);
+
+start.init();
