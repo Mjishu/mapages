@@ -15,6 +15,7 @@ export class Map {
   Create() {
     const NewMap = document.createElement('div'); // div creation
     NewMap.className = 'class-div';
+    NewMap.id = 'classHolder';
 
     const mapImage = document.createElement('img');
     mapImage.src = this.map.image_href;

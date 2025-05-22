@@ -7,7 +7,7 @@ export class Slider {
     this.mapNumber = mapNumber;
     this.barValue = mapNumber;
     this.htmlBody = body;
-    this.sliderSize = sliderSize;
+    this.sliderSize = sliderSize - 1;
   }
 
   Create() {
@@ -16,15 +16,11 @@ export class Slider {
     bar.min = '0';
     bar.max = this.sliderSize.toString();
     bar.value = this.barValue.toString();
+    bar.id = 'bar';
 
     const sliderValue = document.createElement('p');
     sliderValue.textContent = this.barValue.toString();
-
-    bar.addEventListener('input', () => {
-      console.log(bar.value);
-      sliderValue.textContent = bar.value.toString();
-      this.mapNumber = Number(bar.value);
-    });
+    sliderValue.id = 'sliderValue';
 
     this.htmlBody.append(bar, sliderValue);
   }

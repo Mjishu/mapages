@@ -19,7 +19,9 @@ export class CreateMap {
 
   Initialize() {
     for (const map of this.mapData as mapInfo[]) {
+      console.log(map.title + map.order + this.currentMap);
       if (map.order === this.currentMap) {
+        console.log('creating new map ' + map.title);
         let newMap = new Map(map, this.htmlBody);
         newMap.Create();
         this.currentMap += 1;

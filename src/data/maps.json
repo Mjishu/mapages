@@ -38,7 +38,7 @@
     },
     {
       "title": "Eratosthenes' Map",
-      "order": "3",
+      "order": 3,
       "image_href": "https://www.oldest.org/wp-content/uploads/2019/08/Eratosthenes-Map.jpg",
       "info": {
         "year": "194 BCE",
@@ -50,7 +50,7 @@
     },
     {
       "title": "Posidonius' Map",
-      "order": "4",
+      "order": 4,
       "image_href": "https://www.oldest.org/wp-content/uploads/2019/08/Posidonius-Map.jpg",
       "info": {
         "year": "150-130 BCE",
